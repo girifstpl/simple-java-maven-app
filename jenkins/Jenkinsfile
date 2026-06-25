@@ -26,5 +26,10 @@ pipeline {
                 echo 'Job completed successfully!'
             }
         }
+        stage('Acknowledge') {
+            steps {
+                echo 'Job Acknowledged successfully!'
+            }
+        }
     }
 }
